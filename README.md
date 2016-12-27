@@ -20,7 +20,7 @@
 1. `Arduino Micro` 作用：模拟USB键盘
 2. `Arduino Pro mini 改进版 ATMEGA328P 5V 16M` 作用：从`USB Host Shield mini`接收USB键盘按键信息，做以处理并选择通过`Arduino Micor`输出或通过蓝牙模块输出。
 3. `USB Host Shield mini` 作用：接收USB键盘按键信息
-4. `XM-04-HID-K 蓝牙键盘模块` 作用：实现HID蓝牙键盘功能。PS：这个是某宝的一家店里的，而且没有店铺里没有上架这一个模块，可以拍下`XM-04-HID-S 扫描枪模块`然后告诉老板需要蓝牙键盘模块就行了。
+4. `XM-04-HID-K 蓝牙键盘模块` 作用：实现HID蓝牙键盘功能。PS：这个是某宝的一家店里的，而且店铺里没有上架这一个模块，可以拍下`XM-04-HID-S 扫描枪模块`然后告诉老板需要蓝牙键盘模块就行了。
 
 ### 程序说明：
 USBHIDBootKbd代码是用于 Arduino Mini 上获取按键和处理输出。
