@@ -31,7 +31,7 @@ KeyboardAndMouseControl代码用于 Arduino Micro 上，接收 Arduino Mini 传�
 
 这是我的接法，官方手册中说可以直接把USB Host的USB电压输出直接接到上图中右下角的RAW针脚，因为这个针脚可以接受5V的供电，这样就不用提供3.3V的供电了（但VCC针脚应该还是不能接到一起，因为VCC针脚只能接受3.3V的供电）。
 
-还有一些细节和坑可以参考这里：https://github.com/KevinsBobo/arduino_keyboard/issues/1
+还有一些细节和需要注意的坑可以参考这里：https://github.com/KevinsBobo/arduino_keyboard/issues/1
 
 ~~详细功能说明见 http://kevins.pro/arduino_keyboard/~~ （博客迁移，文章没有迁过来。）
 
